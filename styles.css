@@ -1,0 +1,88 @@
+/* Общие стили */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif; /* Строгий шрифт */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Фон контейнера */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Прозрачный фон для формы */
+    padding: 30px;
+    border-radius: 0px; /* Острые углы */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+/* Стили формы */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Стили полей ввода */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa; /* Тускло-серый цвет */
+    border-radius: 0px; /* Острые углы */
+    width: 90%;
+    text-align: center;
+    background-color: #f8f8f8; /* Тусклый цвет фона полей */
+    font-family: 'Arial', sans-serif; /* Строгий шрифт */
+}
+
+/* Стили кнопки */
+input[type="submit"] {
+    padding: 10px;
+    background-color: #999999; /* Тускло-серый цвет */
+    color: white;
+    border: none;
+    border-radius: 0px; /* Острые углы */
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Arial', sans-serif; /* Строгий шрифт */
+}
+
+input[type="submit"]:hover {
+    background-color: #7a7a7a; /* Темнее при наведении */
+}
+
+/* Заголовки */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Стиль ссылки */
+#dashboardLink {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#dashboardLink:hover {
+    text-decoration: underline;
+}
+
+/* Приветственное окно после авторизации */
+.welcome-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Фон для окна после авторизации */
+    color: white; /* Белый текст */
+    width: 350px;
+    padding: 30px;
+    border-radius: 0px; /* Острые углы */
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
